@@ -1,6 +1,3 @@
-
-Here's a comprehensive README.txt for your Firebase project:
-
 Firebase Storage Project
 This project demonstrates how to upload and download files using Firebase Storage with a web application. The application allows users to select a file, upload it to Firebase Storage, and then download it using a web interface. The project is built using HTML, JavaScript, and the Firebase SDK.
 
