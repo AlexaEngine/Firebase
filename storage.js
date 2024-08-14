@@ -2,15 +2,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/fireba
 import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-storage.js";
 
 // Initialize Firebase
-const app = initializeApp({
-    apiKey: "AIzaSyDLQDKZ4r_RDpr6Em8TwrV63EV-qDXEQK0",
-    authDomain: "fir-a22c4.firebaseapp.com",
-    databaseURL: "https://fir-a22c4-default-rtdb.firebaseio.com",
-    projectId: "fir-a22c4",
-    storageBucket: "fir-a22c4.appspot.com",
-    messagingSenderId: "139166851473",
-    appId: "1:139166851473:web:1d2a739c72f997b464fa30"
-});
+const firebaseConfig = {
+    apiKey: "USE YOUR API KEY HERE",
+    authDomain: "USE YOUR AUTH DOMAIN HERE",
+    projectId: "USE YOUR PROJECT ID HERE",
+    storageBucket: "USE YOUR STORAGE BUCKET HERE",
+    messagingSenderId: "USE YOUR MESSAGING SENDER ID HERE",
+    appId: "USE YOUR APP ID HERE"
+};
 
 const storage = getStorage(app);
 
